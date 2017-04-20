@@ -1,0 +1,17 @@
+extends layout
+
+block content
+	h1= title
+	form(action="/" method="post")
+		label(for="title")
+		input(type="text" name="title" id="title" placeholder="title")
+		br
+		label(for="body")
+		input(type="text" name="body" id="body" placeholder="body")
+		br
+		label(for="assignee")
+		input(type="text" name="assignee" id="assignee" value="devisscher")
+		br
+		//label(for="labels")
+		//input(type="text" name="labels" id="labels" placeholder="labels")	
+		input(type="submit")

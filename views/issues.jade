@@ -1,0 +1,6 @@
+extends layout
+
+block content
+	if issues
+		for issue in issues
+			li issue.user.login

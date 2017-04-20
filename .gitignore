@@ -1,0 +1,10 @@
+.env
+npm-debug.log
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/*
+.vscode
+.vscode/*
+.idea
+.DS_Store
+node_modules
